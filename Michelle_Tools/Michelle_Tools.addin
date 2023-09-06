@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Text>Command Michelle_Tools</Text>
+		<Description>Some description for MEP_Tools</Description>
+		<Assembly>D:\02.CODE\Michelle_Tools\Michelle_Tools\bin\Debug\Michelle_Tools.dll</Assembly>
+		<FullClassName>Michelle_Tools.BlockCad.BlockCadCommand</FullClassName>
+		<ClientId>b8fdc202-1803-43eb-82a3-22f01d1d87da</ClientId>
+		<VendorId>THINH-0387054624</VendorId>
+		<VendorDescription>THINH, https://www.facebook.com/thinh.tnhtb </VendorDescription>
+	</AddIn>
+	<AddIn Type="Application">
+		<Name>Application Michelle_Tools</Name>
+		<Assembly>D:\02.CODE\Michelle_Tools\Michelle_Tools\bin\Debug\Michelle_Tools.dll</Assembly>
+		<FullClassName>Michelle_Tools.App</FullClassName>
+		<ClientId>4ac81daf-fb58-40d3-ab15-2a4f37318967</ClientId>
+		<VendorId>THINH-0387054624</VendorId>
+		<VendorDescription>THINH, https://www.facebook.com/thinh.tnhtb </VendorDescription>
+	</AddIn>
+</RevitAddIns>
